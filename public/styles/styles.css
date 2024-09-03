@@ -1,0 +1,58 @@
+body{
+ background-color: #111111;  
+  margin: 0;
+  
+}
+h1,
+p{
+    color: aliceblue; 
+
+
+}
+
+
+.foto-texto {
+    
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+.foto-texto h1 {
+    color: aliceblue;
+    font-size: 50px;
+ margin-left: 11cm;
+}
+.foto-texto h1 {
+    color: aliceblue; 
+    margin: 0; 
+    padding: 9cm;
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease-out, transform 5s ease-out;
+}
+
+
+.foto-texto.visible h1 {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+.eventos h1{
+    font-size: 48px;
+    text-align: center;
+
+}
+.eventos p{
+    padding: 7cm;
+    padding-top: 0 ;
+    text-align: center;
+    font-size: 30px;
+}
+.Txt h1{
+    font-size: 48px;
+    text-align: center;
+}
+.Txt p{
+    margin-left: 7cm;
+    font-size:30px;
+    text-align: left;
+}
