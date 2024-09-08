@@ -1,0 +1,59 @@
+
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #333;
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0; 
+   width: 100%; 
+    z-index: 1000; /* Asegura que la barra de navegación se muestre sobre otros contenidos */
+   
+}
+
+.nav ul {
+    display: flex; /* Usa Flexbox para los elementos de la lista */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    display: flex; 
+    align-items: center; /* Alinea los elementos verticalmente */
+  
+    font-size: 30px;
+    padding-right: 2cm ;
+   
+    
+    
+}
+
+.nav ul li #img {
+    margin-right: auto; /* Empuja el primer ítem a la izquierda */
+    
+}
+
+#index{
+    margin-left: auto; /* Empuja el primer ítem a la izquierda */
+}
+
+.nav a {
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav img {
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    padding: 5px;
+   
+    border-radius: 35px;
+}
+
+
